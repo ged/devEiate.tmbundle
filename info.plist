@@ -1,0 +1,10 @@
+{	"contactEmailRot13" = "trq@SnrevrZHQ.bet";
+	contactName = "Michael Granger";
+	description = "A dark theme with balanced colors";
+	name = "devEiate";
+	source = {
+		method = "git";
+		url = "git://github.com/ged/devEiate-tmTheme.git";
+	};
+	uuid = "10D3A077-4E11-4152-9C85-6BECD5AB2C1F";
+}
