@@ -1,7 +1,5 @@
 # devEiate TextMate Theme
 
-(As a vim theme):
-
 <img src="http://deveiate.org/images/deveiate-theme.png" alt="devEiate Theme - Preview" />
 
 I packaged up my Emacs theme years ago as a TextMate theme and shared it among a few friends, who converted it to themes for their editors, etc.
@@ -13,6 +11,8 @@ It's also incidentally, the theme that code in the default RDoc look and feel us
 
 * TextMate
 * Sublime Text 2
+
+It's also available as a (vim theme)[http://www.vim.org/scripts/script.php?script_id=2277].
 
 
 ## Installation
