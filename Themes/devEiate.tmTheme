@@ -725,9 +725,9 @@ entity.name.function.ruby</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Trailing Whitespace</string>
+			<string>Illegal Whitespace</string>
 			<key>scope</key>
-			<string>meta.trailing-whitespace</string>
+			<string>invalid.illegal.whitespace.mixed</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
