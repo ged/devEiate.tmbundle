@@ -18,7 +18,7 @@
 				<key>caret</key>
 				<string>#E8E600</string>
 				<key>foreground</key>
-				<string>#EBEBC8</string>
+				<string>#dddddd</string>
 				<key>invisibles</key>
 				<string>#FFFFFF40</string>
 				<key>lineHighlight</key>
@@ -159,9 +159,29 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>-----------------------------------</string>
+			<string>Even Tabs</string>
+			<key>scope</key>
+			<string>meta.even-tab</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>background</key>
+				<string>#121225CC</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#5556B080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Illegal Whitespace</string>
+			<key>scope</key>
+			<string>invalid.illegal.whitespace.mixed</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#8B1710</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -217,20 +237,12 @@
 			<key>name</key>
 			<string>® Ruby Function</string>
 			<key>scope</key>
-			<string>source.ruby.rspec
-meta.function.method.with-arguments.ruby
-entity.name.function.ruby</string>
+			<string>meta.function.method.with-arguments.ruby entity.name.function.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#76EDC9</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>-----------------------------------</string>
-			<key>settings</key>
-			<dict/>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -295,7 +307,7 @@ entity.name.function.ruby</string>
 			<key>name</key>
 			<string>♦ String.regexp.«special»</string>
 			<key>scope</key>
-			<string>string.regexp constant.character.escaped, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition</string>
+			<string>string.regexp constant.character.escaped, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repetition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -597,66 +609,6 @@ entity.name.function.ruby</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Webgen: Metadata Header</string>
-			<key>scope</key>
-			<string>text.html.textile.webgen.metadata</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#00002C</string>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#B7EBE3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Webgen: Plugin</string>
-			<key>scope</key>
-			<string>text.html.textile.webgen.plugin</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D9DE00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Webgen: Plugin Parameters</string>
-			<key>scope</key>
-			<string>text.html.textile.webgen.plugin-parameters</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#DCDC8A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Even Tabs</string>
-			<key>scope</key>
-			<string>meta.even-tab</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#121225CC</string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#5556B080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>-----------------------------------</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>⁖ NTriples Subject</string>
 			<key>scope</key>
 			<string>source.n3 meta.statement.n3 meta.statement.subject.n3</string>
@@ -725,27 +677,9 @@ entity.name.function.ruby</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Illegal Whitespace</string>
+			<string>µ Manual PI</string>
 			<key>scope</key>
-			<string>invalid.illegal.whitespace.mixed</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#8B1710</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>----------------------------------</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Manual PI</string>
-			<key>scope</key>
-			<string>text.html.textile.manual
-text.html.textile.manual.pi</string>
+			<string>text.html.textile.manual text.html.textile.manual.pi</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -754,11 +688,9 @@ text.html.textile.manual.pi</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Manual PI Content</string>
+			<string>µ Manual PI Content</string>
 			<key>scope</key>
-			<string>text.html.textile.manual
-text.html.textile.manual.pi
-text.html.textile.manual.pi-content</string>
+			<string>text.html.textile.manual text.html.textile.manual.pi text.html.textile.manual.pi-content</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -767,12 +699,9 @@ text.html.textile.manual.pi-content</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Manual PI ParamHash</string>
+			<string>µ Manual PI ParamHash</string>
 			<key>scope</key>
-			<string>text.html.textile.manual
-text.html.textile.manual.pi
-text.html.textile.manual.pi-content
-text.html.textile.manual.pi-paramhash</string>
+			<string>text.html.textile.manual text.html.textile.manual.pi text.html.textile.manual.pi-content text.html.textile.manual.pi-paramhash</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
