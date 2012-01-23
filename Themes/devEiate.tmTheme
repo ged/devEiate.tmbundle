@@ -609,6 +609,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup: Raw</string>
+			<key>scope</key>
+			<string>markup.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#222222</string>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>⁖ NTriples Subject</string>
 			<key>scope</key>
 			<string>source.n3 meta.statement.n3 meta.statement.subject.n3</string>
