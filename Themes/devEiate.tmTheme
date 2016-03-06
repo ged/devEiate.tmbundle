@@ -6,6 +6,8 @@
 	<string>Michael Granger</string>
 	<key>comment</key>
 	<string>A theme by Michael Granger</string>
+	<key>semanticClass</key>
+	<string>theme.dark.deveiate</string>
 	<key>name</key>
 	<string>DevEiate</string>
 	<key>settings</key>
