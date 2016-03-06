@@ -721,6 +721,43 @@
 				<string>#BEE778</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>… Trailing Whitespace</string>
+			<key>scope</key>
+			<string>meta.trailing-whitespace</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>… Mixed Whitespace</string>
+			<key>scope</key>
+			<string>meta.mixed-whitespace</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>‰ RSpec Focus/eXclude</string>
+			<key>scope</key>
+			<string>keyword.other.rspec.focus-or-xclude</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#20B413</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FEDD09</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>EB09D0A3-EFF7-40FD-925D-6290768EBD32</string>
